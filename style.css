@@ -1,0 +1,31 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+.navbar {
+  background-color: #ff0bac;
+}
+
+.judul {
+  margin-top: 3rem;
+  background-color: #fc8bc0;
+  padding: 2rem 0 2rem 0;
+}
+
+.col {
+  margin: 0rem 5rem;
+}
+.sign-up {
+  background-color: #ddff00;
+}
+.navbar-brand {
+  padding-left: 8rem;
+}
+
+/* .pengembang {
+  background-color: #fc8bc0;
+} */
+
+.footer-capt {
+  background-color: #fa53a0;
+}

@@ -1,0 +1,14 @@
+/** @format */
+.left {
+  padding: 12rem 10rem;
+  background-color: #fae8e0;
+}
+
+.right {
+  padding: 12rem 12rem;
+  background-color: #b6e2d3;
+}
+
+.container-layar {
+  margin-top: 5rem;
+}
