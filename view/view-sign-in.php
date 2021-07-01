@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style-laman-signin.css">
+    <link rel="stylesheet" href="asset/style-laman-signin.css">
 
     <title>Hotel | Laman-SignIn</title>
   </head>
@@ -19,9 +19,10 @@
       <nav class="navbar navbar-dark fixed-top" style="background-color: #ff0bac;">
         <div class="container fs-5 fw-bold">
           <a class="navbar-brand" href="#">
-            <img src="../SI-Perpustakaan/img/USELESSHOUSE.png" alt="" width="30" height="24" class="d-inline-block align-text-top" />
+            
             Luxury
           </a>
+          <a href="index.php?page=auth&aksi=logout" type="button" class=" btn   btn-outline-danger fw-bold text-pink" style=" border-radius :1.5rem;"><i class="bi bi-box-arrow-right"></i> Logout</a> 
         </div>
       </nav>
     </section>
@@ -34,7 +35,10 @@
               <div class="col fw-bolder rounded shadow-sm fs-2 mb-5" style="background-color: #b6e2d3; color:#fae8e0;">Start Your Regitration Now</div>
             </div>
             <div class="row">
-              <div class="col"><button type="button" class="btn btn-outline-dark fw-bolder w-75 text-dark" style="background-color:#b6e2d3 ; color: #fae8e0;">Registration</button></div>
+              <div class="col"> <a href="index.php?page=user&aksi=viewregistrasi" type="button" class="btn btn-outline-dark fw-bolder w-75 text-dark" style="background-color:#b6e2d3 ; color: #fae8e0;">Registration</a> </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col"> <a href="index.php?page=history&aksi=view" type="button" class="btn btn-outline-dark fw-bolder w-75 text-dark" style="background-color:#b6e2d3 ; color: #fae8e0;">History</a> </div>
             </div>
           </div>
 

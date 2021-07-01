@@ -1,0 +1,13 @@
+/** @format */
+
+.form-login {
+  margin-top: 10rem;
+  width: 30%;
+  padding: 1rem;
+  background-color: #fae8e0;
+}
+.btn-login {
+  width: 10rem;
+  background-color: #b6e2d3;
+  border-radius: 20px;
+}

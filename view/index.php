@@ -2,38 +2,38 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head >
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="asset/style.css" />
     <title>Hotel | Home</title>
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow text-end fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow text-end fixed-top" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Luxury Hotel</a>
+        <a class="navbar-brand" href="index.php">Luxury Hotel</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto start">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Galery</a>
+              <a class="nav-link active" href="#galery">Galery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Slogans</a>
+              <a class="nav-link active" href="#footer">Slogans</a>
             </li>
             <li class="ps-3 pe-3">
-              <button type="button" class="btn btn-outline-light fw-bold">Sign in</button>
-              <button type="button" class="sign-up btn btn-light fw-bold">Sign up</button>
+              <a href="index.php?page=auth&aksi=signin"type="button" class="btn btn-outline-light fw-bold">Sign in</a>
+             <a href="index.php?page=auth&aksi=viewsignup" type="button" class="sign-up btn btn-light fw-bold">Sign up</a>
             </li>
           </ul>
         </div>
@@ -54,17 +54,17 @@
     </svg>
     <!-- end judul -->
     <!-- container gambar -->
-    <section>
-      <div class="container">
+    <section id="galery">
+      <div class="container" >
         <div class="row">
           <div class="col text-center">
             <h2>Galery</h2>
           </div>
         </div>
-        <div class="row justify-content-center table-light">
+        <div class="row justify-content-center table-light" >
           <div class="col-4">
             <div class="card">
-              <img src="img/bilding1.jpg" class="card-img-top shadow-sm" />
+              <img src="img/bilding1.jpg" class="card-img-top shadow-sm" style="height: 30rem;" />
               <div class="card-body">
                 <p class="card-text text-center">Building</p>
               </div>
@@ -72,7 +72,7 @@
           </div>
           <div class="col-4">
             <div class="card">
-              <img src="img/lobby.jpg" class="card-img-top shadow-sm" />
+              <img src="img/lobby.jpg" class="card-img-top shadow-sm"style="height: 30rem;" />
               <div class="card-body">
                 <p class="card-text text-center">Lobby</p>
               </div>
@@ -80,7 +80,7 @@
           </div>
           <div class="col-4">
             <div class="card">
-              <img src="img/pool.jpg" class="card-img-top shadow-sm" />
+              <img src="img/pool.jpg" class="card-img-top shadow-sm" style="height: 30rem;" />
               <div class="card-body">
                 <p class="card-text text-center">Pool</p>
               </div>
@@ -103,7 +103,7 @@
     <!-- tes overlaping end -->
 
     <!-- footer -->
-    <footer class="text-light text-center text-lg-start shadow-lg">
+    <footer class="text-light text-center text-lg-start shadow-lg" id="footer">
       <div class="footer-capt text-center p-3"><h6 class="fw-bold">Kami tidak pernah menyia-nyiakan tamu meskipun permintaannya aneh-aneh</h6></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
