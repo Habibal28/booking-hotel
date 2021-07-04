@@ -41,7 +41,7 @@
     </nav>
     <!-- end navbar -->
     <!-- judul -->
-    <section class="judul">
+    <section class="judul ">
       <h1 class="text-center text-light fw-bold">BOOKING HOTEL</h1>
       <p class="lead text-center text-light fw-italic">Luxury || International</p>
     </section>
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="row justify-content-center table-light" >
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card">
               <img src="img/bilding1.jpg" class="card-img-top shadow-sm" style="height: 30rem;" />
               <div class="card-body">
@@ -70,7 +70,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card">
               <img src="img/lobby.jpg" class="card-img-top shadow-sm"style="height: 30rem;" />
               <div class="card-body">
@@ -78,7 +78,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
             <div class="card">
               <img src="img/pool.jpg" class="card-img-top shadow-sm" style="height: 30rem;" />
               <div class="card-body">
@@ -103,7 +103,7 @@
     <!-- tes overlaping end -->
 
     <!-- footer -->
-    <footer class="text-light text-center text-lg-start shadow-lg" id="footer">
+    <footer class="text-dark text-center text-lg-start shadow-lg" id="footer">
       <div class="footer-capt text-center p-3"><h6 class="fw-bold">Kami tidak pernah menyia-nyiakan tamu meskipun permintaannya aneh-aneh</h6></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
