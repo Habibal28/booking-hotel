@@ -10,7 +10,7 @@ class historycontroller{
 
     public function index(){
         $id = $_SESSION['data'];
-        $data = $this->model->get($id);
+        $data = $this->model->get($id,$id);
         extract($data);
         require_once("view/history.php");
     }

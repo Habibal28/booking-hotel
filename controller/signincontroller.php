@@ -25,7 +25,7 @@ class signincontroller{
        $tgl_cekout = $_POST["cekout"];
        $id_layanan = $_POST["layanan"];
        $id_customer = $_POST["id_customer"];
-       $tgl_pesan = date("yy-m-d");
+       $tgl_pesan = date("Y-m-d");
        
          $kamar = rand(1,200); 
          $this->model->registrasikamar($kamar,$id_layanan);

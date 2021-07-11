@@ -40,6 +40,7 @@
               <th scope="col-md">Nama Pelanggan</th>
               <th scope="col-md">No Kamar</th>
               <th scope="col-md">Layanan</th>
+              <th scope="col-md">Total Harga</th>
               <th scope="col-md">Tanggal Cek In</th>
               <th scope="col-md">Tanggal Cek Out</th>
               <th scope="col-md">Aksi</th>
@@ -53,6 +54,7 @@
               <td><?=$row["nama"]?></td>
               <td><?=$row["nokamar"]?></td>
               <td><?=$row["layanan"]?></td>
+              <td>Rp.<?=$row["harga"]?></td>
               <td><?=$row["tglcekin"]?></td>
               <td><?=$row["tglcekout"]?></td>
               <td>

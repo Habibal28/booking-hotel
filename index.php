@@ -71,7 +71,6 @@ session_start();
         } else if ($aksi == 'viewregistrasi') {
             $user->getviewregistrasi();
         } else if ($aksi == 'registrasi') {
-            // $user->registrasikamar();
             $user->registrasi();
         } else {
             echo "Method Not Found";

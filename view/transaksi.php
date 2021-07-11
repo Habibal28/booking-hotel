@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md mb-3 p-3 text-light text-center"><button type="submit" name="submit" class="btn btn-outline-secondary" style="background-color: #fae8e0; font-family: fantasy; width: 10rem">ADD</button></div>
+          <div class="col-md mb-3 p-3 text-light text-center"><button type="submit" class="btn btn-outline-secondary" style="background-color: #fae8e0; font-family: fantasy; width: 10rem">ADD</button></div>
         </div>
        
         </form>

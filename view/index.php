@@ -104,7 +104,7 @@
 
     <!-- footer -->
     <footer class="text-dark text-center text-lg-start shadow-lg" id="footer">
-      <div class="footer-capt text-center p-3"><h6 class="fw-bold">Kami tidak pernah menyia-nyiakan tamu meskipun permintaannya aneh-aneh</h6></div>
+      <div class="footer-capt text-center p-3"><h6 class="fw-bold text-light">Kami tidak pernah menyia-nyiakan tamu meskipun permintaannya aneh-aneh</h6></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>

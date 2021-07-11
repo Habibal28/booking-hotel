@@ -22,7 +22,7 @@
             
             Luxury
           </a>
-          <a href="index.php?page=auth&aksi=logout" type="button" class=" btn   btn-outline-danger fw-bold text-pink" style=" border-radius :1.5rem;"><i class="bi bi-box-arrow-right"></i> Logout</a> 
+          <a href="index.php?page=auth&aksi=logout" type="button" class=" btn   btn-outline-dark fw-bold  bg-danger" style=" border-radius :1.5rem;"><i class="bi bi-box-arrow-right"></i> Logout</a> 
         </div>
       </nav>
     </section>
